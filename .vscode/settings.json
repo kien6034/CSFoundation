@@ -3,6 +3,10 @@
         "*html": "html",
         "type_traits": "cpp",
         "iosfwd": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "python": "python"
+    },
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
+
