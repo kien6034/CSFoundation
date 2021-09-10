@@ -12,7 +12,9 @@ class Stack:
             tmp = self.top
             
             self.top = tmp.next 
-            return tmp.data
+            data = tmp.data 
+            del tmp 
+            return data
         else:
             print("The stack is empty!")
             return None
